@@ -1,0 +1,7 @@
+-- GET
+https://ge3dd9bed39d2de-ocitestapexdb03.adb.sa-saopaulo-1.oraclecloudapps.com/ords/af/f
+uncionario/funcionariolista/
+-- GET
+https://ge3dd9bed39d2de-ocitestapexdb03.adb.sa-saopaulo-1.oraclecloudapps.com/ords/af/funcionario/funcionariolista/1
+-- PUT
+https://ge3dd9bed39d2de-ocitestapexdb03.adb.sa-saopaulo-1.oraclecloudapps.com/ords/af/funcionario/funcionariolista/1?cargo=Analista de RH Pleno 2/

@@ -1,0 +1,77 @@
+prompt --application/shared_components/data_profiles/funcionario
+begin
+--   Manifest
+--     DATA PROFILE: Funcionario
+--   Manifest End
+wwv_flow_imp.component_begin (
+ p_version_yyyy_mm_dd=>'2024.05.31'
+,p_release=>'24.1.0'
+,p_default_workspace_id=>7561598824054988
+,p_default_application_id=>100
+,p_default_id_offset=>0
+,p_default_owner=>'WKSP_ALVAROFONTELES'
+);
+wwv_flow_imp_shared.create_data_profile(
+ p_id=>wwv_flow_imp.id(7920867975099233)
+,p_name=>'Funcionario'
+,p_format=>'JSON'
+,p_use_raw_json_selectors=>false
+);
+wwv_flow_imp_shared.create_data_profile_col(
+ p_id=>wwv_flow_imp.id(7921066532099243)
+,p_data_profile_id=>wwv_flow_imp.id(7920867975099233)
+,p_name=>'NAME'
+,p_sequence=>1
+,p_column_type=>'DATA'
+,p_data_type=>'VARCHAR2'
+,p_max_length=>32767
+,p_has_time_zone=>false
+,p_selector=>'name'
+);
+wwv_flow_imp_shared.create_data_profile_col(
+ p_id=>wwv_flow_imp.id(7921311399099249)
+,p_data_profile_id=>wwv_flow_imp.id(7920867975099233)
+,p_name=>'LATITUDE'
+,p_sequence=>2
+,p_column_type=>'DATA'
+,p_data_type=>'VARCHAR2'
+,p_max_length=>32767
+,p_has_time_zone=>false
+,p_selector=>'latitude'
+);
+wwv_flow_imp_shared.create_data_profile_col(
+ p_id=>wwv_flow_imp.id(7921696174099249)
+,p_data_profile_id=>wwv_flow_imp.id(7920867975099233)
+,p_name=>'LONGITUDE'
+,p_sequence=>3
+,p_column_type=>'DATA'
+,p_data_type=>'VARCHAR2'
+,p_max_length=>32767
+,p_has_time_zone=>false
+,p_selector=>'longitude'
+);
+wwv_flow_imp_shared.create_data_profile_col(
+ p_id=>wwv_flow_imp.id(7921916044099249)
+,p_data_profile_id=>wwv_flow_imp.id(7920867975099233)
+,p_name=>'ALPHA2CODE'
+,p_sequence=>4
+,p_column_type=>'DATA'
+,p_data_type=>'VARCHAR2'
+,p_max_length=>32767
+,p_has_time_zone=>false
+,p_selector=>'alpha2code'
+);
+wwv_flow_imp_shared.create_data_profile_col(
+ p_id=>wwv_flow_imp.id(7922216481099249)
+,p_data_profile_id=>wwv_flow_imp.id(7920867975099233)
+,p_name=>'ALPHA3CODE'
+,p_sequence=>5
+,p_column_type=>'DATA'
+,p_data_type=>'VARCHAR2'
+,p_max_length=>32767
+,p_has_time_zone=>false
+,p_selector=>'alpha3code'
+);
+wwv_flow_imp.component_end;
+end;
+/

@@ -4,7 +4,11 @@ prompt --install
 @@application/create_application.sql
 @@application/user_interfaces.sql
 @@workspace/credentials/funcionario_credencial.sql
+@@workspace/credentials/credentials_for_funcionario_2.sql
 @@workspace/remote_servers/fucionario.sql
+@@workspace/remote_servers/covid_19_data_p_rapidapi_com.sql
+@@application/shared_components/data_profiles/funcionario.sql
+@@application/shared_components/web_sources/funcionario.sql
 @@application/shared_components/navigation/lists/navigation_menu.sql
 @@application/shared_components/navigation/lists/navigation_bar.sql
 @@application/shared_components/navigation/listentry.sql
@@ -114,5 +118,6 @@ prompt --install
 @@application/pages/page_00000.sql
 @@application/pages/page_00001.sql
 @@application/pages/page_00010.sql
+@@application/pages/page_00020.sql
 @@application/pages/page_09999.sql
 @@application/end_environment.sql

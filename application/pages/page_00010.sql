@@ -13,9 +13,9 @@ wwv_flow_imp.component_begin (
 );
 wwv_flow_imp_page.create_page(
  p_id=>10
-,p_name=>'Lista de Funcionarios'
+,p_name=>'APIs Restful - REST Enabled SQL e REST Source com OAuth 2 - OCI - Projeto Completo no Github.'
 ,p_alias=>'LISTA-DE-FUNCIONARIOS'
-,p_step_title=>'Lista de Funcionarios'
+,p_step_title=>'APIs Restful - REST Enabled SQL e REST Source com OAuth 2 - OCI - Projeto Completo no Github.'
 ,p_autocomplete_on_off=>'OFF'
 ,p_page_template_options=>'#DEFAULT#'
 ,p_page_is_public_y_n=>'Y'
@@ -36,7 +36,7 @@ wwv_flow_imp_page.create_page_plug(
 );
 wwv_flow_imp_page.create_page_plug(
  p_id=>wwv_flow_imp.id(7901398515481915)
-,p_plug_name=>'Lista de Funcionarios'
+,p_plug_name=>'APIs Restful - REST Enabled SQL e REST Source com OAuth 2 - OCI - Projeto Completo no Github.'
 ,p_region_template_options=>'#DEFAULT#'
 ,p_plug_template=>wwv_flow_imp.id(7681311611320856)
 ,p_plug_display_sequence=>10

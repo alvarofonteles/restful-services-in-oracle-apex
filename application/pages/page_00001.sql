@@ -24,7 +24,7 @@ wwv_flow_imp_page.create_page(
 );
 wwv_flow_imp_page.create_page_plug(
  p_id=>wwv_flow_imp.id(7888939903321445)
-,p_plug_name=>'Funcionarios - Acesso 100% API Restful ORDS com OAuth 2 -  OCI - Projeto Completo no Github.'
+,p_plug_name=>'APIs Restful - REST Enabled SQL e REST Source com OAuth 2 - OCI - Projeto Completo no Github.'
 ,p_region_template_options=>'#DEFAULT#'
 ,p_plug_template=>wwv_flow_imp.id(7667852337320847)
 ,p_plug_display_sequence=>10

@@ -23,9 +23,15 @@ wwv_flow_imp_shared.create_menu_option(
 );
 wwv_flow_imp_shared.create_menu_option(
  p_id=>wwv_flow_imp.id(7901123589481914)
-,p_short_name=>'Lista de Funcionarios'
-,p_link=>'f?p=&APP_ID.:10:&APP_SESSION.::&DEBUG.:::'
+,p_short_name=>'Lista de Funcionarios - REST Enabled SQL com OAuth 2'
+,p_link=>'f?p=&APP_ID.:10:&SESSION.::&DEBUG.:::'
 ,p_page_id=>10
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(7924220820115053)
+,p_short_name=>'Covid-19 API - Rest Data Source'
+,p_link=>'f?p=&APP_ID.:20:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>20
 );
 wwv_flow_imp.component_end;
 end;
